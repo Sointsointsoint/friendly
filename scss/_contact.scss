@@ -1,0 +1,90 @@
+.contact {
+  padding-bottom: 135px;
+  // .contact__wrapper
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  // .contact__item
+  &__item {
+    // .contact__item_left
+    &_left {
+      flex: 0 1 51%;
+      margin-right: 10px;
+    }
+    // .contact__item_right
+    &_right {
+      flex: 0 1 40.5%;
+    }
+  }
+  // .contact__cicrle
+  &__cicrle {
+    width: 607px;
+    height: 607px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+  }
+  // .contact__mobile
+  &__mobile {
+    position: absolute;
+    left: 85px;
+    bottom: -44px;
+    z-index: 1;
+  }
+  // .contact__picture
+  &__picture {
+    position: absolute;
+    right: 80px;
+    bottom: 86px;
+  }
+  // .contact__form
+  &__form {}
+}
+.form-contact {
+  padding-top: 130px;
+  // .form-contact__body
+  &__body {}
+  // .form-contact__title
+  &__title {
+    margin-bottom: 30px;
+  }
+  // .form-contact__item
+  &__item {
+    margin-bottom: 15px;
+    &_mb25 {
+      margin-bottom: 25px;
+    }
+  }
+  // .form-contact__input
+  &__input {
+    height: 45px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    padding: 0 25px;
+    font-weight: 600;
+    color: #9b44ff;
+    cursor: pointer;
+    &::placeholder {
+      font-family: 'Manrope';
+      font-weight: 600;
+      color: #a8a8a8;
+    }
+  }
+  // .form-contact__btn
+  &__btn {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #9b44ff;
+  }
+}
+
